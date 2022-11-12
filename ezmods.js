@@ -1,14 +1,3 @@
-new G.Tech({
-		name:'hacks',
-		desc:'@unlocks [hacker]s<>gives you hacks’,
-		icon:[1, 2],
-		cost:{'insight':15},
-		req:{'stone-knapping':true},
-		effects:[
-		],
-		chance:100000,
-	});
-
 new G.Unit({
 		name:'hacker',
 		desc:'@generates [insight] once a second<>A [dreamer]gives you hacks.',
@@ -23,4 +12,4 @@ new G.Unit({
 		req:{'speech':true},
 		category:'discovery',
 		priority:100,
-	});
+});
