@@ -18,7 +18,7 @@ new G.Unit({
 	category:'discovery',
 	Priority:10,
 	});
-};	
+	}	
 });
 
 
