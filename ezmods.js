@@ -12,4 +12,4 @@ new G.Unit({
 		req:{'speech':true},
 		category:'discovery',
 		priority:100,
-});
+	});
