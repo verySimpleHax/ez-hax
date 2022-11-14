@@ -10,14 +10,13 @@ G.AddData({
     {
 		new G.Unit({
 		name:'Magadadee',
-		desc:'@generates [insight] more frequently than a [dreamer]<>A [Magadadee] spends their time observing, thinking, and wondering why things are the way they are.',
+		desc:'@generates [insight] more frequently than a [dreamer]<>A [Hacker] spends their time observing, thinking, and wondering why things are the way they are.',
 		icon:[0,0,'magadadeeSheet'],
 		cost:{'food':50},
 		use:{'worker':1},
 		effects:[
 			{type:'gather',what:{'insight':0.9}},
 			{type:'gather',what:{'insight':0.9},req:{'symbolism':true}},
-			{type:'mult',value:3,req:{'symbolism':'on'}}
 		],
 		category:'discovery',
 		req:{'speech':true},
