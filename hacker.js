@@ -1,13 +1,13 @@
 G.AddData({
-	name:'Hacker',
-	author:'me',
-	desc:'Adds a Hacker unit, who generates fast ticks.',
+	name:'hackers',
+	author:'Owen "Ohead" Parker',
+	desc:'Adds a hacker unit, who generates fast ticks.',
 	engineVersion:1,
 	func:function()
 	{   
         new G.Unit({
-            name:'Hacker',
-            desc:'@generates fast ticks every now and then<>A [Hacker] is one with the land and the natural energy of the universe.',
+            name:'hacker',
+            desc:'@generates fast ticks every now and then<>A [hacker] is one with the land and the natural energy of the universe.',
             icon:[7,5],
             cost:{},
             use:{'worker':1},
