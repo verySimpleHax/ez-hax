@@ -13,7 +13,6 @@ G.AddData({
             use:{'worker':1},
             upkeep:{'coin':0.2},
             effects:[
-		{type:'gather',what:{'insight':0.5}},
 		{type:'function',func:(me)=>{
                     let amount = me.amount - me.idle;
                     // Limit of 25% chance per day, logarithmic
