@@ -8,7 +8,7 @@ G.AddData({
         new G.Unit({
             	name:'hacker',
             	desc:'@generates fast ticks every now and then<>A [hacker] is one with the land and the natural energy of the universe.',
-            	icon:[7,5],
+            	icon:[1,2],
             	cost:{},
             	use:{'worker':1},
             	upkeep:{'coin':0.2},
