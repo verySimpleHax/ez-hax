@@ -25,4 +25,4 @@ G.AddData({
             category:'spiritual',
         });
 	}
-})
+});
