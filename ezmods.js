@@ -1,7 +1,7 @@
 G.AddData({
-	name:'hax',
+	name:'hackers',
 	author:'Owen "Ohead" Parker',
-	desc:'Adds a hacker unit, who generates fast ticks.',
+	desc:'Adds a meditater unit, who generates fast ticks.',
 	engineVersion:1,
 	func:function()
 	{   
