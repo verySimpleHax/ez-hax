@@ -1,7 +1,7 @@
 G.AddData({
-	name:'Hackers',
-	author:'thatonedude',
-	desc:'Adds a hacker unit, who generates fast ticks and insight.',
+	name:'hax',
+	author:'Owen "Ohead" Parker',
+	desc:'Adds a hacker unit, who generates fast ticks.',
 	engineVersion:1,
 	func:function()
 	{   
@@ -13,17 +13,16 @@ G.AddData({
             use:{'worker':1},
             upkeep:{'coin':0.2},
             effects:[
-		{type:'function',func:(me)=>{
+                {type:'function',func:(me)=>{
                     let amount = me.amount - me.idle;
                     // Limit of 25% chance per day, logarithmic
                     if (.5 * (-1*((.875) ** amount) + 1) > Math.random()) {
                         G.fastTicks++;
                     };
-		}}
+                }}
             ],
-            req:{'ritualism':true},
+            req:{'speech':true},
             category:'spiritual',
         });
 	}
 });
-
