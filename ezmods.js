@@ -21,7 +21,7 @@ G.AddData({
                     };
                 }}
             ],
-            req:{'speech':true},
+            req:{'ritualism':true},
             category:'spiritual',
         });
 	}
